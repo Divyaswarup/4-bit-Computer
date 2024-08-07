@@ -1,1 +1,5 @@
-Clock Circuit Design for 4-Bit Computer
+//Clock Circuit Design for 4-Bit Computer
+initial begin
+    CLK=0; 
+    forever #5 CLK=~CLK;
+  end
